@@ -17,7 +17,7 @@ public class ReadFile {
 		return textReader;
 	}
 	public static void main(String[] args) throws IOException {
-		ReadFile rf = new ReadFile("‪‪C:\\Users\\james\\Desktop\\dem.txt");
+		ReadFile rf = new ReadFile("Files\\wdata.dat");
 		System.out.println(rf.getBufferedReader().readLine());
 	}
 }
